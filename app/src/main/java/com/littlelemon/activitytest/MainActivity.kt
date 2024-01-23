@@ -21,7 +21,7 @@ class MainActivity: ComponentActivity() {
         Log.d("", "created")
         setContent {
             ActivityTestTheme {
-                FirstActivity()
+                ListActivity()
             }
         }
     }
