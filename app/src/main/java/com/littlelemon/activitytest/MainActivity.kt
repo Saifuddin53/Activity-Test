@@ -20,9 +20,7 @@ class MainActivity: ComponentActivity() {
         super.onCreate(savedInstanceState)
         Log.d("", "created")
         setContent {
-            ActivityTestTheme {
-                FirstActivity()
-            }
+            TimetableApp()
         }
     }
 }
