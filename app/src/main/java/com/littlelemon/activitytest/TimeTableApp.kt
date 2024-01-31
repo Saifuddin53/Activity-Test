@@ -149,3 +149,7 @@ val lectures = listOf(
 fun PreviewLectureItem() {
     LectureItem(lecture = Lecture(name = "Mathematics", attendanceStatus = AttendanceStatus.PRESENT))
 }
+
+fun check() {
+    
+}
